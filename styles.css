@@ -1,0 +1,75 @@
+body,
+.navbar {
+    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%,rgba(255, 255, 255, 0.6) 100%), url(img/crossline-dots.png);
+}
+
+
+.logo-image {
+    width: 7em;
+    height: 2em;
+}
+
+.menu-text {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.thumbnail {
+    position: relative;
+    height: 700px;
+}
+
+.caption {
+    text-shadow: -3px 0 rgba(0, 0, 0, 0.801), 
+                            0 3px rgba(0, 0, 0, 0.8), 
+                            3px 0 rgba(0, 0, 0, 0.8), 
+                            0 -3px rgba(0, 0, 0, 0.808);
+}
+.captionmiddle {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+.captionbottom {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+}
+
+.animal {
+    height: 15rem;
+    width: 15rem;
+}
+
+.card {
+    /* background-color:  rgba(185, 88, 88, 0.658); */
+    background-color:  rgba(185, 88, 88, 0.295);
+}
+
+.btn {
+    background-color:  rgba(185, 88, 88, 0.658);
+}
+
+.btn:hover {
+    background-color:  rgba(255, 109, 109, 0.849);
+}
+.btn:active,
+.btn:link,
+.btn:visited,
+.btn:focus {
+    background-color:  rgba(185, 19, 19, 0.658);
+}
+
+h5 {
+    color: rgb(241, 165, 0);
+    text-shadow: -1px 0 rgba(0, 0, 0, 0.801), 
+                            0 1px rgba(0, 0, 0, 0.8), 
+                            1px 0 rgba(0, 0, 0, 0.8), 
+                            0 -1px rgba(0, 0, 0, 0.808);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
